@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+<title>201943500961-Yonis Abirohanda</title>
+    <body>
+<table border="2" align=center bordercolor=green cellspacing="2"align=center cellpadding="5">
+
+<tr>
+	<td><h2><center><b>Form Input Biodata</b></center></h2>
+</tr>
+</td>
+     <td>
+        <form action="Biodata" method="post">
+     	<table>
+        <tr>
+            <td><label>Nama Lengkap</label></td>
+            <td>:<input type="text" size="50"name="nama" id="nama"/></td>
+         </tr>
+         <tr>
+            <td>Tempat,Tanggal Lahir</td>
+            <td>:<input type="text" size="29"name="nama" ><input type="date"/></td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>:<textarea nama="tempat" id="alamat" cols="50" rows="4"></textarea></td>
+        </tr>
+        <tr>
+            <td>No.Telp/HP</td>
+            <td>:<input type="number" size="50"></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:
+            	<input type='radio' name='jenis_kelamin' value='Laki-laki'/>Laki-laki
+            	<input type='radio' name='jenis_kelamin' value='Perempuan'/>Perempuan</td>
+        </tr>
+        <tr>
+            <td>Agama</td>
+            <td>:
+            <select><option value="Pilih Agama">--Pilih Agama--</option>
+  			<option nama="agama" value="Islam">Islam</option>
+ 			<option nama="agama" value="Kristen">Kristen</option>
+  			<option nama="agama" value="Budha">Budha</option>
+  			<option nama="agama" value="Hindu">Hindu</option>
+			</select></td>
+        </tr>
+        <tr>
+            <td>Hobi</td>
+             <td>:
+             <input type="checkbox" name="hobi[]" value="Baca Buku">Baca Buku
+             <input type="checkbox" name="hobi[]" value="Olah Raga">Olah Raga
+     		 <input type="checkbox" name="hobi[]" value="Main Game">Main Game
+      		 <input type="checkbox" name="hobi[]" value="Koding">Koding</td>
+        </tr>
+                <tr>
+                     
+                      <td><input type="submit" name="submit" value="Submit"/>
+                          <input type="reset" name="Clear!" value="Clear!"/>
+                      </td>
+                </tr>
+        </form>
+ </table>
+</body>
+</html>
